@@ -7,7 +7,7 @@ const users = require("./models/userSchema");
 const cors = require("cors");
 const router = require("./routes/router");
 
-const port = "https://express-mongo-be.vercel.app";
+const port = 8003;
 
 app.use(cors());
 app.use(express.json());
